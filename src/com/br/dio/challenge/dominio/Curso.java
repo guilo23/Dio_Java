@@ -1,12 +1,17 @@
 package com.br.dio.challenge.dominio;
 
-public class Curso extends Conteudo {
-    @Override
-    public double cacularXp() {
-        return 0;
-    }
+public class Curso extends Conteudo{
 
     private int cargaHoraria;
+
+    @Override
+    public double calcularXp() {
+        return XP_PADRAO * cargaHoraria;
+    }
+
+    public Curso() {
+    }
+
 
     public int getCargaHoraria() {
         return cargaHoraria;

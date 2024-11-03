@@ -1,12 +1,13 @@
 package com.br.dio.challenge.dominio;
 
 public abstract class Conteudo {
-    protected static final double xp_Padrao = 10d;
+
+    protected static final double XP_PADRAO = 10d;
 
     private String titulo;
     private String descricao;
 
-    public abstract double cacularXp();
+    public abstract double calcularXp();
 
     public String getTitulo() {
         return titulo;
