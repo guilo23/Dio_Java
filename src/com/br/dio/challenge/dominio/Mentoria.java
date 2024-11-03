@@ -1,9 +1,11 @@
 package com.br.dio.challenge.dominio;
 
+import java.time.LocalDate;
+
 public class Mentoria {
     private String titulo;
     private String descricao;
-    private int data;
+    private LocalDate data;
 
     public String getTitulo() {
         return titulo;
