@@ -15,14 +15,14 @@ public class Main {
         curso2.setDescricao("Descricao Curso JS");
         curso2.setCargaHoraria(4);
 
-        Conteudo conteudo = new Curso();
+        //Conteudo conteudo = new Curso();
 
         Mentoria mentoria1 = new Mentoria();
         mentoria1.setTitulo("curso Java");
         mentoria1.setDescricao("Descircao curso java");
         mentoria1.setData(LocalDate.now());
 
-        System.out.println(Curso1);
+        System.out.println(curso1);
         System.out.println(curso2);
     }
 }
